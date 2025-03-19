@@ -8,7 +8,7 @@
         $var = $table;
     }
     $url = explode($var, $url);
-}
+    }
 
     //declaration de la constante root
     $root = $_SERVER['DOCUMENT_ROOT'];
