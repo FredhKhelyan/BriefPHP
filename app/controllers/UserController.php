@@ -1,6 +1,6 @@
 <?php
 require_once 'app/models/user.php';
-
+session_start();
 class UserController {
     private $userModel;
 
@@ -35,6 +35,12 @@ class UserController {
             }
         }
         require 'app\views\Connexion.php';
+    }
+    
+    public function logout() {
+        session_unset();
+        session_destroy();
+        echo "Déconnexion réussie.";
     }
 }
 ?>

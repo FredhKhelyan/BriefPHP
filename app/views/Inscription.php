@@ -52,16 +52,17 @@
                     <button
                         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                         type="submit">S'inscrire</button>
-                    <a href="dashboard.php" class="text-green-500 hover:text-blue-500">Se connecter</a>
                 </div>
-            </form>
 
-            <div class=" text-center mt-8">
-                <p class="text-sm text-gray-500">Already have an account? <a href="Connexion.php"
-                        class="text-green-500 hover:text-blue-500">Log In</a></p>
-            </div>
+                <div class=" text-center mt-8">
+                    <p class="text-sm text-gray-500">Already have an account? <a href="app\views\Connexion.php"
+                            class="text-green-500 hover:text-blue-500">Log In</a></p>
+                </div>
         </div>
     </div>
+    </form>
+
+
 </body>
 
 </html>

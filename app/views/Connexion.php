@@ -36,11 +36,12 @@
 
                     </button>
                 </div>
+                <div class="flex flex-col justify-center items-center mt-6">
+                    <p class="text-sm text-gray-500">You haven't an account? <a href="app\views\Inscription.php"
+                            class="text-green-500 hover:text-blue-700">Inscription</a></p>
+                </div>
             </form>
-            <div class="flex flex-col justify-center items-center mt-6">
-                <p class="text-sm text-gray-500">You haven't an account? <a href="app\views\Inscription.php"
-                        class="text-green-500 hover:text-blue-700">Inscription</a></p>
-            </div>
+
         </div>
     </div>
 </body>
